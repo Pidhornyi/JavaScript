@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    /*
+     Задача 2. Напишите функцию, возвращающую количество собственных вызовов.
+     */
+    function calls() {
+        calls.currentCount = (calls.currentCount || 0);
+        return alert("Вызов " + ++calls.currentCount);
+    }
+    calls();
+    calls();
+    calls();
+
+</script>
+
+</body>
+</html>

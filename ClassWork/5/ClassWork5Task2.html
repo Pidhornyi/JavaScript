@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    /*
+     Задача 2 Превратите объект leader из примера ниже в JSON: var leader = { name: "Василий Иванович", age: 35 };
+      После этого конвертируйте получившуюся строку обратно в объект.
+     */
+    var leader = {
+        name: "Павлик Морозов",
+        age: 35
+    };
+    leader = JSON.stringify(leader);
+    alert(leader);
+    leader = JSON.parse(leader);
+    console.log(leader);
+</script>
+
+</body>
+</html>

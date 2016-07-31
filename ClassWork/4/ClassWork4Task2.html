@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    /*
+     Перепишите с использованием встроенного метода bind:
+     */
+    var user = {
+        name: "Павлик",
+        sayHi: function() {
+            alert(this.name);
+        }
+    }
+    var b = user.sayHi.bind(user);
+</script>
+
+</body>
+</html>
